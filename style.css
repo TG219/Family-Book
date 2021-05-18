@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-image:radial-gradient(rgb(243, 164, 177), purple );
+}
+#family_image{
+    width: 290px ;
+}
+button{
+    font-size: 25px;
+    color: aqua;
+    border-radius: 20%;
+    color: black;
+
+}
+
+h1{
+    font-size: 40px ;
+    color: yellow;
+    text-decoration: unset;
+}
+
+h3{
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+    text-decoration: unset;
+}

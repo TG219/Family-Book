@@ -1,0 +1,42 @@
+<html>
+    <head>My Family Book</head>
+<link rel="stylesheet" href="style.css">
+</html>
+<body>
+    <h1>My Family Book</h1>
+    <hr>
+    <br>
+    <img id="family_image" src="family.jpg">
+<h3 id="six">My Family Book</h3>
+<button type="button" onclick="family()">Next</button>
+<hr>
+<script>
+    var names= [
+        "1. My Father , Prashant Gunjal  ",
+        "2. My Mother , Rachana Gunjal",
+        "3. My Grandmother , Vandana Gunjal",
+        "4. My Sister , Prisha Gunjal",
+        "5. My Dog , Mufasa",
+        "6. Me , Tanissha Gunjal"
+    ];
+
+var images= [
+    "dad.jpg",
+    "mom.jfif",
+    "grandmother.jpg",
+    "Prisha.jpg",
+    "Mufasa.jpg",
+    "Me.jpg"
+];
+
+var i=0;
+function family(){
+document.getElementById("six").innerHTML= names[i];
+document.getElementById("family_image").src= images[i];
+i++;
+if(i==6){
+    i=0;
+}
+}
+</script>
+</body>
